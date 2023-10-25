@@ -1,0 +1,209 @@
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("/images/bg/careers.svg"), url("/images/bg/careers-svg-2.svg");
+  background-position: right top;
+  background-size: 25rem;
+  background-repeat: no-repeat;
+  gap: 7.6rem;
+  height: 36.5rem;
+  flex-shrink: 0;
+}
+@media only screen and (max-width: 1100px) {
+  .hero {
+    height: 50rem;
+    background-size: 35rem;
+  }
+}
+.hero .hero-text button {
+  display: flex;
+  padding: 0.875rem 1.75rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 1.875rem;
+  border: 3px solid #4A2960;
+  background: rgba(254, 93, 20, 0);
+  color: #4A2960;
+  font-family: inherit;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+@media only screen and (max-width: 1100px) {
+  .hero .hero-text button {
+    margin-top: 5rem;
+    font-size: 1rem;
+  }
+}
+.hero .hero-text h1 {
+  color: #4A2960;
+  font-family: inherit;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+@media only screen and (max-width: 800px) {
+  .hero .hero-text h1 {
+    font-size: 4rem;
+  }
+}
+.hero .hero-text p {
+  color: #4A2960;
+  font-family: inherit;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.5rem; /* 160% */
+}
+@media only screen and (max-width: 800px) {
+  .hero .hero-text p {
+    font-size: 1.1rem;
+  }
+}
+.hero .job-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.hero .job-categories button {
+  display: flex;
+  height: 2.75rem;
+  padding: 0.875rem 1.75rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 1.875rem;
+  border: 3px solid #4A2960;
+  background: rgba(254, 93, 20, 0);
+  color: #4A2960;
+  font-family: inherit;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transition: all ease-out 0.2s;
+}
+.hero .job-categories button:hover {
+  color: white;
+  background-color: #4A2960;
+}
+.hero .job-categories button.active {
+  color: white;
+  background-color: #4A2960;
+}
+
+.wrapper {
+  margin-top: 4.6875rem;
+  margin-bottom: 4.6875rem;
+}
+
+.jobs-section {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-top: 1px solid #DEDEDE;
+  border-bottom: 1px solid #DEDEDE;
+}
+@media only screen and (max-width: 800px) {
+  .jobs-section {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+.jobs-section .text h1 {
+  color: #4A2960;
+  font-family: inherit;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+@media only screen and (max-width: 800px) {
+  .jobs-section .text h1 {
+    font-size: 1.5rem;
+  }
+}
+.jobs-section .text h3 {
+  color: #4A2960;
+  font-family: inherit;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.5rem; /* 160% */
+}
+@media only screen and (max-width: 800px) {
+  .jobs-section .text h3 {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+}
+.jobs-section .text ul li {
+  list-style-type: number;
+  color: #4A2960;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5625rem; /* 156.25% */
+}
+@media only screen and (max-width: 800px) {
+  .jobs-section .text ul li {
+    font-size: 0.9rem;
+  }
+}
+.jobs-section .text .btn-info {
+  display: flex;
+  gap: 0.9rem;
+}
+.jobs-section .text .btn-info .btn-exp {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #4A2960;
+  font-family: Inter;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  height: 1.5rem;
+  width: 12rem;
+  padding: 0.875rem 1.75rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  flex-shrink: 0;
+  border-radius: 1.875rem;
+  border: 3px solid #4A2960;
+  background: rgba(254, 93, 20, 0);
+}
+@media only screen and (max-width: 800px) {
+  .jobs-section .text .btn-info .btn-exp {
+    width: 7rem;
+  }
+}
+.jobs-section .text .btn-info .btn-2 {
+  width: 6rem;
+}
+.jobs-section .apply-btn {
+  display: flex;
+  transition: all ease-in-out 0.2s;
+}
+.jobs-section .apply-btn svg {
+  transition: all ease-in-out 0.2s;
+}
+.jobs-section .apply-btn:hover {
+  color: #FE5D14;
+}
+.jobs-section .apply-btn:hover svg {
+  fill: #FE5D14;
+}
+.jobs-section .apply-btn:hover svg path {
+  stroke: #FE5D14;
+}/*# sourceMappingURL=careers.css.map */

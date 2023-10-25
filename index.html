@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- googlefontslink -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- stylesheetlink -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Home</title>
+</head>
+<body>
+
+    <div class="open-nav">
+        <nav class="open-nav-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="shop.html" class="active">Shop</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+            </ul>
+
+            <div class="cart">
+                <a href="#">
+                    <div class="cart">
+                        <div class="cart-icon">
+                            <div class="cart-no"><p>2</p></div>
+                            <img src="./images/icons/cart.svg" alt="">
+                        </div>
+                        <span class="line"></span>
+                        <div class="cart-total">
+                            <p>$ 100</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="register-login">
+                <div class="icon"><svg width="19" height="22" viewBox="0 0 19 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.62537 11.0408C12.398 11.0408 14.6458 8.79308 14.6458 6.02039C14.6458 3.24771 12.398 1 9.62537 1C6.85269 1 4.60498 3.24771 4.60498 6.02039C4.60498 8.79308 6.85269 11.0408 9.62537 11.0408Z" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M18.2501 21.0816C18.2501 17.1958 14.3844 14.053 9.62503 14.053C4.8657 14.053 1 17.1958 1 21.0816" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="text"><p>Register / Login</p></div>
+            </div>
+        </nav>
+        <svg class="close" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16.5 0.25C13.2861 0.25 10.1443 1.20305 7.47199 2.98862C4.79969 4.77419 2.71689 7.31209 1.48697 10.2814C0.257041 13.2507 -0.0647633 16.518 0.562247 19.6702C1.18926 22.8224 2.73692 25.7179 5.00952 27.9905C7.28213 30.2631 10.1776 31.8108 13.3298 32.4378C16.482 33.0648 19.7493 32.743 22.7186 31.513C25.6879 30.2831 28.2258 28.2003 30.0114 25.528C31.797 22.8557 32.75 19.7139 32.75 16.5C32.75 14.366 32.3297 12.2529 31.5131 10.2814C30.6964 8.30985 29.4994 6.51847 27.9905 5.00952C26.4815 3.50056 24.6902 2.3036 22.7186 1.48696C20.7471 0.670319 18.634 0.25 16.5 0.25ZM20.9038 18.5963C21.0561 18.7473 21.177 18.927 21.2595 19.1251C21.342 19.3231 21.3844 19.5355 21.3844 19.75C21.3844 19.9645 21.342 20.1769 21.2595 20.3749C21.177 20.573 21.0561 20.7527 20.9038 20.9038C20.7527 21.0561 20.573 21.177 20.3749 21.2594C20.1769 21.3419 19.9645 21.3844 19.75 21.3844C19.5355 21.3844 19.3231 21.3419 19.1251 21.2594C18.927 21.177 18.7473 21.0561 18.5963 20.9038L16.5 18.7913L14.4038 20.9038C14.2527 21.0561 14.073 21.177 13.8749 21.2594C13.6769 21.3419 13.4645 21.3844 13.25 21.3844C13.0355 21.3844 12.8231 21.3419 12.6251 21.2594C12.427 21.177 12.2473 21.0561 12.0963 20.9038C11.9439 20.7527 11.8231 20.573 11.7406 20.3749C11.6581 20.1769 11.6156 19.9645 11.6156 19.75C11.6156 19.5355 11.6581 19.3231 11.7406 19.1251C11.8231 18.927 11.9439 18.7473 12.0963 18.5963L14.2088 16.5L12.0963 14.4038C11.7903 14.0978 11.6184 13.6827 11.6184 13.25C11.6184 12.8173 11.7903 12.4022 12.0963 12.0963C12.4023 11.7903 12.8173 11.6184 13.25 11.6184C13.6827 11.6184 14.0978 11.7903 14.4038 12.0963L16.5 14.2088L18.5963 12.0963C18.9023 11.7903 19.3173 11.6184 19.75 11.6184C20.1827 11.6184 20.5978 11.7903 20.9038 12.0963C21.2098 12.4022 21.3817 12.8173 21.3817 13.25C21.3817 13.6827 21.2098 14.0978 20.9038 14.4038L18.7913 16.5L20.9038 18.5963Z" fill="#4A2960"/>
+        </svg>
+    </div>
+    <div class="contact">
+        <h1>For Technical Support : +91 234 5678 234</h1>
+        <h1>Have queries Mail us : contact@mysite.com</h1>
+    </div>
+    <header class="header-main container mob-fixed">
+        <div class="top-header">
+            <div class="logo"><a href="#"><img src="./images/feonmed_logo.svg" alt="logo" class="logo-img"></a></div>
+            <div class="support-info">
+                <div class="support-card-call">
+                    <div class="call-icon">
+                        <img src="./images/icons/call_icon.svg" alt="">
+                    </div>
+                    <div class="text">
+                        <p class="text-header">For Technical Support</p>
+                        <p class="text-sub">+91 234 5678 234</p>
+                    </div>
+                </div>
+                <div class="support-card-call">
+                    <div class="call-icon">
+                        <img src="./images/icons/mail_icon.svg" alt="">
+                    </div>
+                    <div class="text">
+                        <p class="text-header">Have queries Mail us</p>
+                        <p class="text-sub">contact@mysite.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="search-box">
+                <form action="">
+                    <input type="text" placeholder="Search here..." class="search-text-box">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+            <a href="#">
+                <div class="cart">
+                    <div class="cart-icon">
+                        <div class="cart-no"><p>2</p></div>
+                        <img src="./images/icons/cart.svg" alt="">
+                    </div>
+                    <span class="line"></span>
+                    <div class="cart-total">
+                        <p>$ 100</p>
+                    </div>
+                </div>
+            </a>
+            <div class="mobile-icons">
+                <div class="search-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="33" height="29" viewBox="0 0 33 29" fill="none">
+                        <path d="M14.5 29C6.50732 29 0 22.4927 0 14.5C0 6.50732 6.50732 0 14.5 0C22.4927 0 29 6.50732 29 14.5C29 22.4927 22.4927 29 14.5 29ZM14.5 2.12195C7.66732 2.12195 2.12195 7.68146 2.12195 14.5C2.12195 21.3185 7.66732 26.878 14.5 26.878C21.3327 26.878 26.878 21.3185 26.878 14.5C26.878 7.68146 21.3327 2.12195 14.5 2.12195Z" fill="#4A2960"/>
+                        <path d="M32.0612 27.0025C31.8226 27.0025 31.584 26.9146 31.3956 26.7262L28.8837 24.2143C28.5195 23.8501 28.5195 23.2473 28.8837 22.8831C29.2479 22.5188 29.8508 22.5188 30.215 22.8831L32.7269 25.3949C33.0911 25.7591 33.0911 26.362 32.7269 26.7262C32.5385 26.9146 32.2998 27.0025 32.0612 27.0025Z" fill="#4A2960"/>
+                      </svg>
+                </div>
+                <div class="hamburger">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="19" viewBox="0 0 35 19" fill="none">
+                        <path d="M1 1H34" stroke="#4A2960" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M14 10L34 10" stroke="#4A2960" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M22 18L34 18" stroke="#4A2960" stroke-width="2" stroke-linecap="round"/>
+                      </svg>
+                </div>
+            </div>
+        </div>
+        <hr class="divider">
+        <div class="bottom-header">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="aboutus.html">About us</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contactus.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="register-login">
+                <div class="icon"><svg width="19" height="22" viewBox="0 0 19 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.62537 11.0408C12.398 11.0408 14.6458 8.79308 14.6458 6.02039C14.6458 3.24771 12.398 1 9.62537 1C6.85269 1 4.60498 3.24771 4.60498 6.02039C4.60498 8.79308 6.85269 11.0408 9.62537 11.0408Z" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M18.2501 21.0816C18.2501 17.1958 14.3844 14.053 9.62503 14.053C4.8657 14.053 1 17.1958 1 21.0816" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="text"><p>Register / Login</p></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- SEARCH BOX START -->
+
+
+    <div class="search-box-container">
+        <input type="text" placeholder="Search" class="search-field">
+    </div>
+
+
+
+    <!-- SEARCH BOX END -->
+
+
+    <section class="hero-section">
+                <div class="btn-prev">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="prev-btn">
+                        <circle cx="15" cy="15" r="15" fill="#FFDFD0"/>
+                        <path d="M9.23871 15.1068L15.8388 22.1215C16.1571 22.4598 16.6732 22.4598 16.9915 22.1215L17.7613 21.3033C18.079 20.9656 18.0797 20.4182 17.7626 20.0797L12.5319 14.4942L17.7626 8.90881C18.0797 8.57028 18.079 8.0229 17.7613 7.68517L16.9915 6.86702C16.6732 6.5287 16.1571 6.5287 15.8388 6.86702L9.23874 13.8817C8.92043 14.22 8.92043 14.7685 9.23871 15.1068Z" fill="#FE5D14"/>
+                    </svg>
+                </div>   
+
+                <div class="btn-next">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="next-btn">
+                        <circle cx="15" cy="15" r="15" transform="matrix(-1 0 0 1 30 0)" fill="#FFDFD0"/>
+                        <path d="M20.7613 15.1068L14.1612 22.1215C13.8429 22.4598 13.3268 22.4598 13.0085 22.1215L12.2387 21.3033C11.921 20.9656 11.9203 20.4182 12.2374 20.0797L17.4681 14.4942L12.2374 8.90881C11.9203 8.57028 11.921 8.0229 12.2387 7.68517L13.0085 6.86702C13.3268 6.5287 13.8429 6.5287 14.1612 6.86702L20.7613 13.8817C21.0796 14.22 21.0796 14.7685 20.7613 15.1068Z" fill="#FE5D14"/>
+                    </svg> 
+                </div>
+        <!-- slider section -->
+            
+            <div class="slide">
+                <div class="hero-text">
+                    <div class="content">
+                        <h3>Smart Solutions</h3>
+                        <h1>Surgery Technologies, Equipment’s & Customization</h1>
+                        <h5>Feon Med Offers surgical technologies and
+                            customize products for optimized patent car
+                        </h5>
+                        <button>Shop Now</button>
+                    </div>
+                </div>
+                <div class="hero-img"></div>
+            </div>
+
+            <div class="slide">
+                <div class="hero-text">
+                    <div class="content">
+                        <h3>Slide 2</h3>
+                        <h1>Slide 2</h1>
+                        <h5>Feon Med Offers surgical technologies and
+                            customize products for optimized patent car
+                        </h5>
+                        <button>Shop Now</button>
+                    </div>
+                </div>
+                <div class="hero-img"></div>
+            </div>
+
+            <div class="slide">
+                <div class="hero-text">
+                    <div class="content">
+                        <h3>Slide 3</h3>
+                        <h1>Slide 3</h1>
+                        <h5>Feon Med Offers surgical technologies and
+                            customize products for optimized patent car
+                        </h5>
+                        <button>Shop Now</button>
+                    </div>
+                </div>
+                <div class="hero-img"></div>
+            </div>
+
+        <!-- slider section end -->
+    </section>
+
+    <section class="categories margin-top margin-bottom container">
+        <div class="text-section">
+            <h1>Explore our Categories</h1>
+            <p>Feon Med Offers surgical technologies and<br>
+                customize products for optimized patent care </p>
+        </div>
+        <div class="categories-cards">
+            <div class="card">
+                <div class="card-img"><img src="./images/medical_equipments.svg" alt="medical_equipments"></div>
+                <div class="content">
+                    <h3>Medical</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae diam justo. Aenean tristique, justo id pharetra aliquam,</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img"><img src="./images/veterinary.svg" alt="medical_equipments"></div>
+                <div class="content">
+                    <h3>Veterinary</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae diam justo. Aenean tristique, justo id pharetra aliquam,</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img"><img src="./images/life_science.svg" alt="medical_equipments"></div>
+                <div class="content">
+                    <h3>Life Science</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae diam justo. Aenean tristique, justo id pharetra aliquam,</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img"><img src="./images/dental.svg" alt="medical_equipments"></div>
+                <div class="content">
+                    <h3>Dental</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae diam justo. Aenean tristique, justo id pharetra aliquam,</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us-section padding-bottom">
+        <div class="about-us-text">
+            <div class="content container padding-top">
+                <h3>About us</h3>
+                <h1>About Our Medical Company</h1>
+                <p>
+                    Our broad expertise in medical, pharmaceutical
+                    and healthcare information technologies, medical
+                    diagnostics, patient monitoring systems, drug
+                    discovery, bio-pharmaceutical manufacturing
+                    technologies, performance improvement and
+                    performance solutions services help our
+                    customers to deliver.
+                </p>
+                <button>Learn More</button>
+            </div>
+        </div>
+        <div class="image-cards padding-top">
+                <div class="col1">
+                    <img src="./images/image-card.png" alt="">
+                </div>
+        </div>
+    </section>
+
+    <section class="client-info">
+        <div class="content container padding-top">
+            <h1>Our Impact: Clients Served and Projects Completed</h1>
+            <p>Discover the numbers that reflect our commitment to excellence in healthcare solutions.</p>
+        </div>
+        <div class="card-icons container">
+            <div class="card">
+                <img src="./images/icons/users.svg" alt="">
+                <h1>930k+</h1>
+                <p>Total Clients</p>
+            </div>
+
+            <div class="card">
+                <img src="./images/icons/projects.svg" alt="">
+                <h1>930k+</h1>
+                <p>Total Clients</p>
+            </div>
+
+            <div class="card">
+                <img src="./images/icons/equipments.svg" alt="">
+                <h1>930k+</h1>
+                <p>Total Clients</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="highlighted-prodcuts container margin-top margin-bottom">
+        <div class="card">
+            <div class="content">
+                <h5>50% OFF GRAB NOW!!!! </h5>
+                <h3>Digital Sethescope</h3>
+                <div class="price">
+                    <h6>₹ 1500</h6>
+                    <h6>₹ 750</h6>
+                </div>
+                <button>Buy Now</button>
+            </div>
+            <div class="img">
+                <img src="./images/products/sethescope.svg" alt="">
+            </div>
+            <span class="sale-banner">SALE</span>
+        </div>
+
+        <div class="card">
+            <div class="content">
+                <h5>50% OFF GRAB NOW!!!! </h5>
+                <h3>Digital Sethescope</h3>
+                <div class="price">
+                    <h6>₹ 1500</h6>
+                    <h6>₹ 750</h6>
+                </div>
+                <button>Buy Now</button>
+            </div>
+            <div class="img">
+                <img src="./images/products/sethescope.svg" alt="">
+            </div>
+            <span class="sale-banner">SALE</span>
+        </div>
+    </section>
+
+    <section class="featured-products container">
+        <div class="head">
+            <div class="text">
+                <h1>Featured Products</h1>
+            </div>
+            <div class="nav-icons">
+                <a href="#"><img src="./images/icons/previous-iocn.svg" alt=""></a>
+                <a href="#"><img src="./images/icons/forward-icon.svg" alt=""></a>
+            </div>
+        </div>
+        <hr>
+
+        <div class="products-row">
+            <a href="sproduct.html">
+                <div class="product">
+                    <div class="image-card"><img src="./images/products/sethescope.svg" alt=""></div>
+                    <div class="text">
+                        <h3>Digital Sethescope</h3>
+                        <h5>₹ 1500</h5>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="product">
+                    <div class="image-card"><img src="./images/products/sanitizer.svg" alt=""></div>
+                    <div class="text">
+                        <h3>Hand Sanitizer</h3>
+                        <h5>₹ 150</h5>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="product">
+                    <div class="image-card"><img src="./images/products/gloves.svg" alt=""></div>
+                    <div class="text">
+                        <h3>Gloves</h3>
+                        <h5>₹ 1500</h5>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="product">
+                    <div class="image-card"><img src="./images/products/thermometer.svg" alt=""></div>
+                    <div class="text">
+                        <h3>Thermometer</h3>
+                        <h5>₹ 1500</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="products-row">
+            <a href="#">
+                <div class="product">
+                    <div class="image-card"><img src="./images/products/sethescope.svg" alt=""></div>
+                    <div class="text">
+                        <h3>Digital Sethescope</h3>
+                        <h5>₹ 1500</h5>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="product">
+                    <div class="image-card"><img src="./images/products/sanitizer.svg" alt=""></div>
+                    <div class="text">
+                        <h3>Hand Sanitizer</h3>
+                        <h5>₹ 150</h5>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="product">
+                    <div class="image-card"><img src="./images/products/gloves.svg" alt=""></div>
+                    <div class="text">
+                        <h3>Gloves</h3>
+                        <h5>₹ 1500</h5>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="product">
+                    <div class="image-card"><img src="./images/products/thermometer.svg" alt=""></div>
+                    <div class="text">
+                        <h3>Thermometer</h3>
+                        <h5>₹ 1500</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="contact-us">
+        <div class=" wrapper container">
+            <div class="content">
+                <h1>Contact Us</h1>
+                <p>Not Sure What you need ? The team at
+                    Feonmed will be happy to listen to
+                    you  and provide you with suggestions
+                </p>
+                <div class="mail"><svg width="32" height="23" viewBox="0 0 32 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M28.5152 0H3.69405C2.1123 0 0.830078 1.28716 0.830078 2.875V20.125C0.830078 21.7128 2.1123 23 3.69405 23H28.5152C30.0969 23 31.3791 21.7128 31.3791 20.125V2.875C31.3791 1.28716 30.0969 0 28.5152 0ZM28.5152 2.875V5.31905C27.1773 6.41269 25.0445 8.11325 20.4849 11.6974C19.48 12.4908 17.4896 14.397 16.1046 14.3748C14.7199 14.3972 12.7288 12.4905 11.7243 11.6974C7.16543 8.11379 5.03206 6.41287 3.69405 5.31905V2.875H28.5152ZM3.69405 20.125V9.00821C5.06124 10.1014 7.00009 11.6354 9.95529 13.9584C11.2594 14.9889 13.5433 17.2638 16.1046 17.2499C18.6534 17.2638 20.9083 15.0219 22.2534 13.9588C25.2085 11.6359 27.1479 10.1015 28.5152 9.00827V20.125H3.69405Z" fill="white"/>
+                    </svg>
+                    info@gmail.com</div>
+                <div class="call"><svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M26.5509 18.3725L20.7592 15.935C20.5118 15.8314 20.2368 15.8096 19.9757 15.8728C19.7145 15.936 19.4814 16.0808 19.3113 16.2854L16.7464 19.3628C12.721 17.499 9.48152 14.3177 7.5836 10.3647L10.7173 7.84589C10.9261 7.67916 11.0738 7.45018 11.1382 7.19362C11.2026 6.93706 11.1801 6.66688 11.0741 6.42399L8.59198 0.736389C8.47569 0.47456 8.27001 0.260786 8.01041 0.131928C7.7508 0.00306986 7.45355 -0.0327954 7.16991 0.0305167L1.79191 1.24929C1.51845 1.3113 1.27446 1.46251 1.09977 1.67824C0.925085 1.89396 0.830015 2.16146 0.830078 2.43708C0.830078 15.4627 11.5809 26 24.8242 26C25.105 26.0002 25.3775 25.9069 25.5973 25.7353C25.8171 25.5638 25.9711 25.3241 26.0343 25.0555L27.2754 19.7741C27.3394 19.4942 27.3021 19.2011 27.1699 18.9453C27.0377 18.6895 26.8188 18.487 26.5509 18.3725Z" fill="white"/>
+                    </svg>
+                    +91 888 8888 888</div>
+            </div>
+            <div class="form-section">
+
+                <div class="heading-text">
+                    <h2>We’d love to hear from you! Let’s get in touch</h2>
+                </div>
+
+                <form action="">
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label for="">First Name</label>
+                            <input type="text">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="">Last Name</label>
+                            <input type="text">
+                        </div>
+                    </div>
+
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label for="">Email</label>
+                            <input type="text">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="">Phone no</label>
+                            <input type="text">
+                        </div>
+                    </div>
+
+                    <div class="input-row email">
+                        <div class="input-group">
+                            <label for="">Address</label>
+                            <input type="text">
+                        </div>
+                    </div>
+
+                    <div class="input-row message">
+                        <div class="input-group">
+                            <label for="">Message</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                </form>
+                <button>Send Message</button>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer container">
+        <div class="top-section">
+            <div class="content">
+                <img src="./images/white-logo.svg" alt="">
+                <p>Our broad expertise in medical, pharmaceutical and healthcare
+                    information technologies, medical diagnostics, patient monitoring
+                    systems, drug discovery, bio-pharmaceutical manufacturing
+                    technologies,
+                </p>
+            </div>
+            <div class="sign-up-btn">
+                <h5>SIGN UP FOR OUR NEWSLETTER</h5>
+                <div class="sign-box">
+                    <form action="">
+                        <input type="text" placeholder="Enter your Email here..." class="sign-text-box">
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="bottom-section">
+            <div class="pages">
+                <h3>Pages</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About us</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="social">
+                <h3>Socials</h3>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Linkedin</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/hamburger.js"></script>
+    <!-- <script src="./js/home_slider.js"></script> -->
+    <!-- <script src="./js/slider2.js"></script> -->
+    <script src="./js/slider.js"></script>
+</body>
+</html>

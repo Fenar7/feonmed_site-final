@@ -1,0 +1,62 @@
+@import "variables";
+
+.categories-nav{
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 1.5rem;
+        a{
+            text-decoration: none;
+            color: #777;
+            font-family: Inter;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            transition: all ease-out 0.2s;
+        }
+        a.active{
+            color: $cta-color;
+        }
+        a:hover{
+            color: $cta-color;
+        }
+    }
+
+    @media only screen and (max-width: 800px){
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 800px){
+    .drop-down{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .drop-down{
+        #drop-down-nav{
+            padding: 0 1rem;
+            border: 0.5px solid $light-grey;
+            border-radius: 2rem;
+            width: 7rem;
+            height: 2rem;
+            color: $accent-color;
+            font-family: Inter;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+
+            option{
+                color: #777;
+                font-family: Inter;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        }
+    }
+}

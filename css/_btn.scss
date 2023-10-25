@@ -1,0 +1,9 @@
+button{
+    transition: all ease-out 0.2s;
+}
+
+button:hover{
+    background-color: $hover-orange;
+    cursor: pointer;
+}
+    
